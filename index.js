@@ -50,4 +50,12 @@ if (!~window.location.search.indexOf('dnt')) {
         });
         return false;
     };
+} else {
+    document.getElementById('submitSubscribe').onclick = function () {
+        return false;
+    };
+
+    document.getElementById('submitInterested').onclick = function () {
+        return false;
+    };
 }
