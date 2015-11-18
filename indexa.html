@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt">
+                    <h2>
+                        Texchange is coming to your university.
+                    </h2>
+                    <hr class="short-gray-hr">
+                    <h3>
+                        Save time and money by buying, selling, and trading your textbooks with other students on-campus.
+                    </h3>
+                    <div class="mt">
+                        <p>
+                            No one likes wasting money at the book store, or dealing with the hassle of online retailers. Texchange connects buyers and sellers of used textbooks in an easy, cheap, and convenient way. Think Uber meets eBay - for textbooks. Join the Texchange network today and list your books <strong>for only $1 each!</strong>
+                        </p>
+                    </div>
+                    <form class="mt">
+                        <div class="form-group">
+                            <label for="email">Sign up with your email and we'll let you know when Texchange is available:</label>
+                            <input id="email" class="form-control subscribe" type="email" placeholder="email@example.com">
+                            <button id="submitSubscribe" class="btn btn-green">Sign me up!</button>
+                        </div>
+                        <div class="form-group">
+                            <label>Alternatively, if you are interested but don't want to give away your email, click here:</label>
+                            <button id="submitInterested" class="btn btn-info">I'm just interested</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <img src="iphone.png" class="img-responsive center-block" />
+                </div>
+            </div>
+        </div>
+
+        <span id="version" class="hidden">a</span>
+        <script src="index.js"></script>
+    </body>
+</html>
