@@ -1,6 +1,31 @@
 body {
     background-color: #F2F9FE;
 }
+#logo {
+    height: 220px;
+}
+#logo-lg {
+    height: 325px;
+}
+h1 {
+    font-size: 48px !important;
+}
+@media (max-width: 992px) {
+    #logo {
+        height: 155px;
+    }
+    #logo-lg {
+        height: 155px;
+    }
+    h1 {
+        font-size: 38px !important;
+    }
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
 .jumbotron {
     margin: 50px 10px;
     background-color: rgba(205, 233, 254, 0.5);
@@ -38,8 +63,8 @@ hr.short-gray-hr {
     margin-left: 0;
 }
 hr.long-gray-hr {
-    width: 90%;
-    border-bottom: 4px solid #ccc;
+    width: 100%;
+    border-bottom: 3px solid #ccc;
     margin: 0 auto;
     margin-top: 15px;
     margin-bottom: 15px;
